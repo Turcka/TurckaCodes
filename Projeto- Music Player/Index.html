@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="music-containder"> 
+        <H1 id="playlist-tittle">Player Foda</H1>
+        <img id="cover" alt="Disc.Cover">
+        <audio id="audio" src="Musicas/JayA Luuck - Astro Nauta (Videoclipe Oficial).mp3"></audio>
+        <div id="Below-Capa">
+            <div id="song-infos"> 
+                <div id="song-name">Nome Musica</div>
+                <div id="artist-name">Nome artista</div>
+            </div>
+            <button id="Like" class="button"><i class="bi bi-heart"></i></button>
+        </div>
+        <div id="progress-container"> 
+            <div id="progress-bar"> 
+                <div id="current-bar"></div>
+            </div>
+            <div id="Time-box">
+                <div id="song-time">00:00</div>
+                <div id="total-time">00:00</div>
+            </div>
+        </div>
+        <div id="Buttons"> 
+            <button id="shuffle" class=" button "><i class="bi bi-shuffle"></i></button>
+            <button id="previous" class="button button-navigate"><i class="bi bi-caret-left-fill"></i></button>
+            <button id="play" class="button button-biggest"><i class="bi bi-play-circle"></i></button>
+            <button id="next" class="button button-navigate"><i class="bi bi-caret-right-fill"></i></button>
+            <button id="repeat" class="button "><i class="bi bi-repeat"></i></button>
+        </div>
+    </div>
+    <script src="Musica.js"></script>
+</body>
+</html>
+
+
